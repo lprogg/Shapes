@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Project
 {
@@ -13,7 +14,7 @@ namespace Project
                 new Rectangle()
             };
             
-            listOfShapes.ForEach(shape => shape.printArea());
+            listOfShapes.ForEach(shape => Console.WriteLine(shape.printArea()));
         }
     }
 }

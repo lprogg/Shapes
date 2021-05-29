@@ -4,6 +4,6 @@ namespace Project
 {
     public class Rectangle : IShape
     {
-        public void printArea() => Console.WriteLine("Area of a rectangle = l*w");
+        public string printArea() => "Area of a rectangle = l*w";
     }
 }

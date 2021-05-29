@@ -4,6 +4,6 @@ namespace Project
 {
     public class Circle : IShape
     {
-        public void printArea() => Console.WriteLine("Area of a circle = pi*r^2");
+        public string printArea() => "Area of a circle = pi*r^2";
     }
 }
