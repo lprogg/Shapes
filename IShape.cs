@@ -2,6 +2,6 @@ namespace Project
 {
     public interface IShape
     {
-        string printArea();
+        string PrintArea();
     }
 }
