@@ -1,9 +1,7 @@
-using System;
-
 namespace Project
 {
     public class Triangle : IShape
     {
-        public string printArea() => "Area of a triangle = (b*h)/2";
+        public string PrintArea() => "(b*h)/2";
     }
 }

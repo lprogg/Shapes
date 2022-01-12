@@ -7,14 +7,16 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            var listOfShapes = new List<IShape>
+            var ListOfShapes = new List<IShape>
             {
                 new Triangle(),
                 new Circle(),
                 new Rectangle()
             };
             
-            listOfShapes.ForEach(shape => Console.WriteLine(shape.printArea()));
+            ListOfShapes.ForEach(
+                shape => Console.WriteLine(shape.GetType().Name + " area = " + shape.PrintArea())
+            );
         }
     }
 }
